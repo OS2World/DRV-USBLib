@@ -1,0 +1,19 @@
+Gemplus GemPC 430 IFD Handler
+
+Requirements:
+Be sure to have a 2.4 kernel that supports USB.
+Be sure you have pcsc-lite-0.9.1 or higher installed with
+USB support turned on.
+
+
+Installation:
+To install type make.  As root type make install.
+If the build fails you may need to update the Makefile to
+point to the correct pc/sc headers directory.
+
+
+This will install the bundle into 
+/usr/local/pcsc/drivers/
+
+When the reader is plugged in it will be automatically
+recognized and registered with the resource manager.

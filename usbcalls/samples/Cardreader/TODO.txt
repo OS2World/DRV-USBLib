@@ -1,0 +1,12 @@
+
+- Test T=1 mode
+- Add management of memory cards
+- Check all GemCore possible status in status management functions
+- Add PTS management (store it in set capabilities, send it in RESET/POWER_UP)
+- Implement IFDHSetCapabilities
+- Implement IFDHSetProtocolParameters
+- Implement IFDHControl
+- Have the driver support multiple readers
+- Support APDU with 0 length meaning 256 bytes exchange
+- 3V cards are not currently supported.
+

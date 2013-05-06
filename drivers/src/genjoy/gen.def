@@ -1,0 +1,17 @@
+LIBRARY USBD
+DESCRIPTION '@#Netlabs:0.9.6#@  OS/2 Game Device Manager'
+PROTMODE
+
+SEGMENTS
+ DDHEADER       CLASS 'DDHEADER'
+ CONST          CLASS 'CONST'
+ _BSS           CLASS 'BSS'
+ _DATA          CLASS 'DATA'
+ RMCode         CLASS 'CODE' IOPL
+ MSCode         CLASS 'CODE' IOPL
+ 'Code'         CLASS 'CODE' IOPL
+ _TEXT          CLASS 'CODE' IOPL
+ _INIT          CLASS 'CODE' IOPL
+IMPORTS
+ _DOSIODELAYCNT = DOSCALLS.427
+

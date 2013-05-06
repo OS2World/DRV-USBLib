@@ -1,0 +1,84 @@
+LIBRARY USBCALLS INITINSTANCE TERMINSTANCE
+;INITGLOBAL TERMGLOBAL
+
+PROTMODE
+DESCRIPTION 'USB Interface DLL - (c) Copyright Markus Montkowski for Netlabs 2001'
+STACKSIZE 32768
+
+EXPORTS
+  UsbQueryNumberDevices
+  UsbQueryDeviceReport
+  UsbRegisterChangeNotification
+  UsbRegisterDeviceNotification
+  UsbDeregisterNotification
+  UsbOpen
+  UsbClose
+  UsbCtrlMessage
+  UsbBulkRead
+  UsbBulkWrite
+  UsbIrqStart
+  UsbIrqStop
+  UsbIsoStart
+  UsbIsoStop
+  UsbIsoDequeue
+  UsbIsoPeekQueue
+  UsbIsoEnqueue
+  UsbIsoGetLength
+
+  USBLOADFUNCS                    = UsbLoadFuncs                    @100
+  USBDROPFUNCS                    = UsbDropFuncs                    @101
+  RXUSBQUERYNUMBERDEVICES         = RxUsbQueryNumberDevices         @102
+  RXUSBQUERYDEVICEREPORT          = RxUsbQueryDeviceReport          @103
+  RXUSBREGISTERCHANGENOTIFICATION = RxUsbRegisterChangeNotification @104
+  RXUSBREGISTERDEVICENOTIFICATION = RxUsbRegisterDeviceNotification @105
+  RXUSBDEREGISTERNOTIFICATION     = RxUsbDeregisterNotification     @106
+  RXUSBOPEN                       = RxUsbOpen                       @107
+  RXUSBCLOSE                      = RxUsbClose                      @108
+  RXUSBCTRLMESSAGE                = RxUsbCtrlMessage                @109
+  RXUSBBULKREAD                   = RxUsbBulkRead                   @110
+  RXUSBBULKWRITE                  = RxUsbBulkWrite                  @111
+  RXUSBIRQSTART                   = RxUsbIrqStart                   @112
+  RXUSBIRQSTOP                    = RxUsbIrqStop                    @113
+  RXUSBISOSTART                   = RxUsbIsoStart                   @114
+  RXUSBISOSTOP                    = RxUsbIsoStop                    @115
+  RXUSBISODEQUEUE                 = RxUsbIsoDequeue                 @116
+  RXUSBISOPEEKQUEUE               = RxUsbIsoPeekQueue               @117
+  RXUSBISOENQUEUE                 = RxUsbIsoEnqueue                 @118
+  RXUSBISOGETLENGTH               = RxUsbIsoGetLength               @119
+  RXUSBDEVICECLEARFEATURE         = RxUsbDeviceClearFeature         @120
+  RXUSBINTERFACECLEARFEATURE      = RxUsbInterfaceClearFeature      @121
+  RXUSBENDPOINTCLEARFEATURE       = RxUsbEndpointClearFeature       @122
+  RXUSBENDPOINTCLEARHALT          = RxUsbEndpointClearHalt          @123
+
+  RXUSBDEVICEGETCONFIGURATION     = RxUsbDeviceGetConfiguration     @124
+
+  RXUSBDEVICEGETDESCRIPTOR        = RxUsbDeviceGetDescriptor        @125
+  RXUSBINTERFACEGETDESCRIPTOR     = RxUsbInterfaceGetDescriptor     @126
+  RXUSBENDPOINTGETDESCRIPTOR      = RxUsbEndpointGetDescriptor      @127
+  RXUSBCONFIGURATIONGETDESCRIPTOR = RxUsbConfigurationGetDescriptor @128
+  RXUSBSTRINGGETDESCRIPTOR        = RxUsbStringGetDescriptor        @129
+
+  RXUSBINTERFACEGETALTSETTING     = RxUsbInterfaceGetAltSetting     @130
+
+  RXUSBDEVICEGETSTATUS            = RxUsbDeviceGetStatus            @131
+  RXUSBINTERFACEGETSTATUS         = RxUsbInterfaceGetStatus         @132
+  RXUSBENDPOINTGETSTATUS          = RxUsbEndpointGetStatus          @133
+
+  RXUSBDEVICESETADDRESS           = RxUsbDeviceSetAddress           @134
+  RXUSBDEVICESETCONFIGURATION     = RxUsbDeviceSetConfiguration     @135
+
+  RXUSBDEVICESETDESCRIPTOR        = RxUsbDeviceSetDescriptor        @136
+  RXUSBINTERFACESETDESCRIPTOR     = RxUsbInterfaceSetDescriptor     @137
+  RXUSBENDPOINTSETDESCRIPTOR      = RxUsbEndpointSetDescriptor      @138
+  RXUSBCONFIGURATIONSETDESCRIPTOR = RxUsbConfigurationSetDescriptor @139
+  RXUSBSTRINGSETDESCRIPTOR        = RxUsbStringSetDescriptor        @140
+
+  RXUSBDEVICESETFEATURE           = RxUsbDeviceSetFeature           @141
+  RXUSBINTERFACESETFEATURE        = RxUsbInterfaceSetFeature        @142
+  RXUSBENDPOINTSETFEATURE         = RxUsbEndpointSetFeature         @143
+
+  RXUSBINTERFACESETALTSETTING     = RxUsbInterfaceSetAltSetting     @144
+
+  RXUSBSYNCHFRAME                 = RxUsbEndpointSynchFrame         @145
+
+

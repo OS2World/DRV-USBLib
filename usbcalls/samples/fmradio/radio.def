@@ -1,0 +1,13 @@
+LIBRARY RADIO INITGLOBAL TERMGLOBAL
+
+PROTMODE
+DESCRIPTION 'USB Radio DLL - (c) Copyright Markus Montkowski for Netlabs 2001'
+STACKSIZE 32768
+
+EXPORTS
+close_radio  @1
+get_stereo   @2
+open_radio   @3
+set_freq     @4
+turn_power   @5
+

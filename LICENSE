@@ -1,0 +1,119 @@
+All source code and other software components in this CVS repository (USB)
+are Copyright Markus Montkowski. Are covered by the license
+below.  
+
+                         Aladdin Free Public License
+                      (Version 9, September 18, 2000)
+
+    Copyright (C) 1994, 1995, 1997, 1998, 1999, 2000 Aladdin Enterprises,
+            Menlo Park, California, U.S.A. All rights reserved.
+
+     NOTE: This License is not the same as any of the GNU Licenses
+     published by the Free Software Foundation. Its terms are
+     substantially different from those of the GNU Licenses. If you are
+     familiar with the GNU Licenses, please read this license with
+     extra care.
+
+Aladdin Enterprises hereby grants to anyone the permission to apply this
+License to their own work, as long as the entire License (including the
+above notices and this paragraph) is copied with no changes, additions, or
+deletions except for changing the first paragraph of Section 0 to include a
+suitable description of the work to which the license is being applied and
+of the person or entity that holds the copyright in the work, and, if the
+License is being applied to a work created in a country other than the
+United States, replacing the first paragraph of Section 6 with an
+appropriate reference to the laws of the appropriate country.
+
+This License is not an Open Source license: among other things, it places
+restrictions on distribution of the Program, specifically including sale of
+the Program. While Aladdin Enterprises respects and supports the philosophy
+of the Open Source Definition, and shares the desire of the GNU project to
+keep licensed software freely redistributable in both source and object
+form, we feel that Open Source licenses unfairly prevent developers of
+useful software from being compensated proportionately when others profit
+financially from their work. This License attempts to ensure that those who
+receive, redistribute, and contribute to the licensed Program according to
+the Open Source and Free Software philosophies have the right to do so,
+while retaining for the developer(s) of the Program the power to make those
+who use the Program to enhance the value of commercial products pay for the
+privilege of doing so.
+
+0. Subject Matter
+
+This License applies to the computer program known as "OS/2 USB Libary". 
+The "Program", below, refers to such program. The Program is a copyrighted 
+work whose copyright is held by Markus Montkowski., located in
+Leverkusen, Germany (the "Licensor"). 
+
+A "work based on the Program" means either the Program or any derivative
+work of the Program, as defined in the United States Copyright Act of 1976,
+such as a translation or a modification.
+
+BY MODIFYING OR DISTRIBUTING THE PROGRAM (OR ANY WORK BASED ON THE PROGRAM),
+YOU INDICATE YOUR ACCEPTANCE OF THIS LICENSE TO DO SO, AND ALL ITS TERMS AND
+CONDITIONS FOR COPYING, DISTRIBUTING OR MODIFYING THE PROGRAM OR WORKS BASED
+ON IT. NOTHING OTHER THAN THIS LICENSE GRANTS YOU PERMISSION TO MODIFY OR
+DISTRIBUTE THE PROGRAM OR ITS DERIVATIVE WORKS. THESE ACTIONS ARE PROHIBITED
+BY LAW. IF YOU DO NOT ACCEPT THESE TERMS AND CONDITIONS, DO NOT MODIFY OR
+DISTRIBUTE THE PROGRAM.
+
+1. Licenses.
+
+Licensor hereby grants you the following rights, provided that you comply
+with all of the restrictions set forth in this License and provided,
+further, that you distribute an unmodified copy of this License with the
+Program:
+
+(a)  You may copy and distribute literal (i.e., verbatim) copies of the
+     Program's source code as you receive it throughout the world, in any
+     medium.
+(b)  You may modify the Program, create works based on the Program and
+     distribute copies of such throughout the world, in any medium.
+
+2. Restrictions.
+
+This license is subject to the following restrictions:
+
+(a)  Distribution of the Program or any work based on the Program by a
+     commercial organization to any third party is prohibited if any payment
+     is made in connection with such distribution, whether directly (as in
+     payment for a copy of the Program) or indirENTIRE
+RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD
+THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,
+REPAIR OR CORRECTION.
+
+IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL
+LICENSOR, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE PROGRAM
+AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL,
+SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR
+INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR
+DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES
+OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF
+SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGES.
+
+6. General.
+
+This License is governed by the laws of the State of California, U.S.A.,
+excluding choice of law rules.
+
+If any part of this License is found to be in conflict with the law, that
+part shall be interpreted in its broadest meaning consistent with the law,
+and no other parts of the License shall be affected.
+
+For United States Government users, the Program is provided with RESTRICTED
+RIGHTS. If you are a unit or agency of the United States Government or are
+acquiring the Program for any such unit or agency, the following apply:
+
+     If the unit or agency is the Department of Defense ("DOD"), the
+     Program and its documentation are classified as "commercial
+     computer software" and "commercial computer software
+     documentation" respectively and, pursuant to DFAR Section
+     227.7202, the Government is acquiring the Program and its
+     documentation in accordance with the terms of this License. If the
+     unit or agency is other than DOD, the Program and its
+     documentation are classified as "commercial computer software" and
+     "commercial computer software documentation" respectively and,
+     pursuant to FAR Section 12.212, the Government is acquiring the
+     Program and its documentation in accordance with the terms of this
+     License.

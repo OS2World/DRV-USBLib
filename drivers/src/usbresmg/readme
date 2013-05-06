@@ -1,0 +1,7 @@
+The files in this dir should be placed in an dir below
+
+ddk\base\src\dev\usb
+
+within the IBM OS/2 ddk filestructure.
+they require the MS C 6 and masm as shiped with
+the ddk

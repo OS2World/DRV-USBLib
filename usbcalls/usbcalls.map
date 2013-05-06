@@ -1,0 +1,1665 @@
+
+ USBCALLS
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000082D7H CODE32                 CODE 32-bit
+	at offset 00000000 00FABH bytes from F:\ddk\BASE\SRC\DEV\usb\USBRES\usbcalls\DLL\usbcalls.obj (.\usbcalls.cpp)
+	at offset 00000fb0 01129H bytes from F:\ddk\BASE\SRC\DEV\usb\USBRES\usbcalls\DLL\usbrexx.obj (.\usbrexx.cpp)
+	at offset 000020dc 0005CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\sprintf.c)
+	at offset 00002138 000FBH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\ctypetbl.c)
+	at offset 00002234 0002AH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\cfree.c)
+	at offset 00002260 00039H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\cmalloc.c)
+	at offset 0000229c 015C9H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\dofmto.c)
+	at offset 00003868 00210H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\prtemsg.c)
+	at offset 00003a78 000F6H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\n_excrit.c)
+	at offset 00003b70 0001EH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\fastsema.asm)
+	at offset 00003b90 0015DH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\tsglobal.c)
+	at offset 00003cf0 000D1H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\bufprint.c)
+	at offset 00003dc4 00032H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\crt_fd.c)
+	at offset 00003df8 000B3H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\fmtcomm.c)
+	at offset 00003eac 00047H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\interr.c)
+	at offset 00003ef4 01870H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\rmalloc.c)
+	at offset 00005764 0001BH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\weakfmt.c)
+	at offset 00005780 00396H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\edcinit.c)
+	at offset 00005b18 00027H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\localcnv.c)
+	at offset 00005b40 00080H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\n_dumpwk.c)
+	at offset 00005bc0 0006BH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\n_excpta.asm)
+	at offset 00005c2c 00033H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\wctomb.c)
+	at offset 00005c60 00007H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\weakcput.c)
+	at offset 00005c68 007F1H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\n_except.c)
+	at offset 0000645c 003A8H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\begthrd.c)
+	at offset 00006804 000D7H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\fastsem.c)
+	at offset 000068dc 000A3H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\ltoa.c)
+	at offset 00006980 003CFH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\rcreate.c)
+	at offset 00006d50 0011DH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\rinit.c)
+	at offset 00006e70 0003CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\strspn.asm)
+	at offset 00006eac 00010H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\terminat.c)
+	at offset 00006ebc 00005H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\wk_rmem.c)
+	at offset 00006ec4 00007H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\wk_tmem.c)
+	at offset 00006ecc 0000EH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\bts.asm)
+	at offset 00006edc 00017H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\cweak.c)
+	at offset 00006ef4 00007H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\edcmxdef.c)
+	at offset 00006efc 0023DH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\fillb.c)
+	at offset 0000713c 0015FH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\getenv.c)
+	at offset 0000729c 00015H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\incdec.asm)
+	at offset 000072b4 0000BH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\localcns.c)
+	at offset 000072c0 00007H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\matherr.c)
+	at offset 000072c8 00040H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\mbrlen.c)
+	at offset 00007308 000C6H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\setupenv.c)
+	at offset 000073d0 00035H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\uwrite.c)
+	at offset 00007408 00117H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\wctombd.c)
+	at offset 00007520 00006H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\w_raise.c)
+	at offset 00007528 00191H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\endthrd.c)
+	at offset 000076bc 0000BH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\threadid.c)
+	at offset 000076c8 00010H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\fpreset.asm)
+	at offset 000076d8 000E2H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\rcalloc.c)
+	at offset 000077bc 00003H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\wk_walk.c)
+	at offset 000077c0 0032DH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\flushb.c)
+	at offset 00007af0 00100H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\mbrlend.c)
+	at offset 00007bf0 00527H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\nlssetup.c)
+	at offset 00008118 000B5H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\strnicmp.c)
+	at offset 000081d0 0004DH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\wmemfile.c)
+	at offset 00008220 000B7H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\freethrd.c)
+
+ 0001:000082D8 000000000H EH_CODE                CODE 32-bit
+
+ 0001:000082D8 000000030H _MSGSEG32              CODE 32-bit
+	at offset 00000000 00030H bytes from F:\toolkit\lib\OS2386.LIB (msgseg32.asm)
+
+ 0002:00000000 0000004C0H CONST32_RO             CONST 32-bit
+	at offset 00000000 00009H bytes from F:\ddk\BASE\SRC\DEV\usb\USBRES\usbcalls\DLL\usbcalls.obj (.\usbcalls.cpp)
+	at offset 0000000c 003A1H bytes from F:\ddk\BASE\SRC\DEV\usb\USBRES\usbcalls\DLL\usbrexx.obj (.\usbrexx.cpp)
+	at offset 000003b0 00049H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\dofmto.c)
+	at offset 000003fc 00088H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\prtemsg.c)
+	at offset 00000484 00014H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\edcinit.c)
+	at offset 00000498 00025H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\ltoa.c)
+
+ 0003:00000000 000000000H EH_DATA                CONST 32-bit
+
+ 0003:00000000 000000000H _VFT                   CONST 32-bit
+
+ 0003:00000000 000001680H DATA32                 DATA 32-bit
+	at offset 00000000 000A4H bytes from F:\ddk\BASE\SRC\DEV\usb\USBRES\usbcalls\DLL\usbrexx.obj (.\usbrexx.cpp)
+	at offset 000000a4 00004H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\dllstub.asm)
+	at offset 000000a8 00108H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\ctypetbl.c)
+	at offset 000001b0 00008H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\dofmto.c)
+	at offset 000001b8 00004H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\prtemsg.c)
+	at offset 000001bc 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\tsglobal.c)
+	at offset 000001c8 00004H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\crt_fd.c)
+	at offset 000001cc 00028H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\rmalloc.c)
+	at offset 000001f4 00274H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\edcinit.c)
+	at offset 00000468 00074H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lccmap.c)
+	at offset 000004dc 000ACH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\n_except.c)
+	at offset 00000588 0009CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\begthrd.c)
+	at offset 00000624 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\rcreate.c)
+	at offset 00000630 00010H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\getenv.c)
+	at offset 00000640 002C8H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lclocale.c)
+	at offset 00000908 00004H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\localcns.c)
+	at offset 0000090c 00004H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\wctombd.c)
+	at offset 00000910 00024H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\endthrd.c)
+	at offset 00000934 00002H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\fpreset.asm)
+	at offset 00000938 00268H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lccoll.c)
+	at offset 00000ba0 00538H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lcctype.c)
+	at offset 000010d8 00050H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lcmon.c)
+	at offset 00001128 00028H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lcnum.c)
+	at offset 00001150 00048H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lcresp.c)
+	at offset 00001198 00074H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lcsyntax.c)
+	at offset 0000120c 00418H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lctime.c)
+	at offset 00001624 00058H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lctod.c)
+	at offset 0000167c 00004H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\mbrlend.c)
+
+ 0003:00001680 000000000H CTOR_DTOR1             DATA 32-bit
+
+ 0003:00001680 000000000H CTOR_DTOR2             DATA 32-bit
+
+ 0003:00001680 000000000H CTOR_DTOR3             DATA 32-bit
+
+ 0003:00001680 00000001CH EDC1                   EDC_CLASS 32-bit
+	at offset 00000000 0001CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\n_excpta.asm)
+
+ 0003:0000169C 000000288H EDC2                   EDC_CLASS 32-bit
+	at offset 00000000 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\sprintf.c)
+	at offset 0000000c 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\ctypetbl.c)
+	at offset 00000018 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\cfree.c)
+	at offset 00000024 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\cmalloc.c)
+	at offset 00000030 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\dofmto.c)
+	at offset 0000003c 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\prtemsg.c)
+	at offset 00000048 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\n_excrit.c)
+	at offset 00000054 00018H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\fastsema.asm)
+	at offset 0000006c 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\tsglobal.c)
+	at offset 00000078 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\bufprint.c)
+	at offset 00000084 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\interr.c)
+	at offset 00000090 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\rmalloc.c)
+	at offset 0000009c 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\weakfmt.c)
+	at offset 000000a8 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\edcinit.c)
+	at offset 000000b4 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lccmap.c)
+	at offset 000000c0 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\localcnv.c)
+	at offset 000000cc 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\n_dumpwk.c)
+	at offset 000000d8 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\wctomb.c)
+	at offset 000000e4 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\weakcput.c)
+	at offset 000000f0 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\n_except.c)
+	at offset 000000fc 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\begthrd.c)
+	at offset 00000108 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\fastsem.c)
+	at offset 00000114 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\ltoa.c)
+	at offset 00000120 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\strspn.asm)
+	at offset 0000012c 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\terminat.c)
+	at offset 00000138 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\bts.asm)
+	at offset 00000144 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\edcmxdef.c)
+	at offset 00000150 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\fillb.c)
+	at offset 0000015c 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\getenv.c)
+	at offset 00000168 00018H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\incdec.asm)
+	at offset 00000180 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lclocale.c)
+	at offset 0000018c 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\localcns.c)
+	at offset 00000198 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\matherr.c)
+	at offset 000001a4 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\mbrlen.c)
+	at offset 000001b0 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\setupenv.c)
+	at offset 000001bc 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\uwrite.c)
+	at offset 000001c8 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\wctombd.c)
+	at offset 000001d4 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\endthrd.c)
+	at offset 000001e0 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\threadid.c)
+	at offset 000001ec 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\fpreset.asm)
+	at offset 000001f8 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\flushb.c)
+	at offset 00000204 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lccoll.c)
+	at offset 00000210 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lcctype.c)
+	at offset 0000021c 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lcmon.c)
+	at offset 00000228 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lcnum.c)
+	at offset 00000234 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lcresp.c)
+	at offset 00000240 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lcsyntax.c)
+	at offset 0000024c 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lctime.c)
+	at offset 00000258 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lctod.c)
+	at offset 00000264 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\mbrlend.c)
+	at offset 00000270 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\strnicmp.c)
+	at offset 0000027c 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\freethrd.c)
+
+ 0003:00001924 000000004H EDC3                   EDC_CLASS 32-bit
+	at offset 00000000 00004H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\n_excpta.asm)
+
+ 0003:00001928 000001094H BSS32                  BSS 32-bit
+	at offset 00000000 0101CH bytes from F:\ddk\BASE\SRC\DEV\usb\USBRES\usbcalls\DLL\usbcalls.obj (.\usbcalls.cpp)
+	at offset 0000101c 00008H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\ctypetbl.c)
+	at offset 00001024 00004H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\prtemsg.c)
+	at offset 00001028 0001CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\edcinit.c)
+	at offset 00001044 0000CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\n_except.c)
+	at offset 00001050 00004H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\rinit.c)
+	at offset 00001054 00010H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lclocale.c)
+	at offset 00001064 0001CH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lcctype.c)
+	at offset 00001080 0000BH bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lcmon.c)
+	at offset 0000108c 00002H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lcnum.c)
+	at offset 00001090 00003H bytes from F:\IBMCPP\lib\CPPOM30.LIB (D:\SwordCSD\crt\lctime.c)
+
+ 0003:000029BC 00000002CH c_common               BSS 32-bit
+
+
+ Origin   Group
+ 0000:0   FLAT
+ 0003:0   DGROUP
+
+ Address       Export                  Alias
+
+ 0001:000017C6 RXUSBBULKREAD           RxUsbBulkRead
+ 0001:00001788 RXUSBBULKWRITE          RxUsbBulkWrite
+ 0001:0000186C RXUSBCLOSE              RxUsbClose
+ 0001:00001804 RXUSBCTRLMESSAGE        RxUsbCtrlMessage
+ 0001:000019FC RXUSBDEREGISTERNOTIFICATION  RxUsbDeregisterNotification
+ 0001:0000151C RXUSBDEVICECLEARFEATURE  RxUsbDeviceClearFeature
+ 0001:000014A0 RXUSBENDPOINTCLEARFEATURE  RxUsbEndpointClearFeature
+ 0001:0000136A RXUSBGETCONFIGURATIONDESCRIPTOR  RxUsbGetConfigurationDescriptor
+ 0001:00001160 RXUSBGETDEVICECONFIGURATION  RxUsbGetDeviceConfiguration
+ 0001:000013E6 RXUSBGETDEVICEDESCRIPTOR  RxUsbGetDeviceDescriptor
+ 0001:000010A0 RXUSBGETDEVICEINTERFACE  RxUsbGetDeviceInterface
+ 0001:000011F6 RXUSBGETENDPOINTDESCRIPTOR  RxUsbGetEndpointDescriptor
+ 0001:00001272 RXUSBGETINTERFACEDESCRIPTOR  RxUsbGetInterfaceDescriptor
+ 0001:0000155A RXUSBGETSTATUS          RxUsbGetStatus
+ 0001:000012EE RXUSBGETSTRINGDESCRIPTOR  RxUsbGetStringDescriptor
+ 0001:000014DE RXUSBINTERFACECLEARFEATURE  RxUsbInterfaceClearFeature
+ 0001:0000174A RXUSBIRQSTART           RxUsbIrqStart
+ 0001:0000170C RXUSBIRQSTOP            RxUsbIrqStop
+ 0001:00001652 RXUSBISODEQUEUE         RxUsbIsoDequeue
+ 0001:000015D6 RXUSBISOENQUEUE         RxUsbIsoEnqueue
+ 0001:00001598 RXUSBISOGETLENGTH       RxUsbIsoGetLength
+ 0001:00001614 RXUSBISOPEEKQUEUE       RxUsbIsoPeekQueue
+ 0001:000016CE RXUSBISOSTART           RxUsbIsoStart
+ 0001:00001690 RXUSBISOSTOP            RxUsbIsoStop
+ 0001:000018C4 RXUSBOPEN               RxUsbOpen
+ 0001:00001C64 RXUSBQUERYDEVICEREPORT  RxUsbQueryDeviceReport
+ 0001:00001D10 RXUSBQUERYNUMBERDEVICES  RxUsbQueryNumberDevices
+ 0001:00001BC0 RXUSBREGISTERCHANGENOTIFICATION  RxUsbRegisterChangeNotification
+ 0001:00001A54 RXUSBREGISTERDEVICENOTIFICATION  RxUsbRegisterDeviceNotification
+ 0001:00001424 RXUSBSETADDRESS         RxUsbSetAddress
+ 0001:0000132C RXUSBSETCONFIGURATIONDESCRIPTOR  RxUsbSetConfigurationDescriptor
+ 0001:00001100 RXUSBSETDEVICECONFIGURATION  RxUsbSetDeviceConfiguration
+ 0001:000013A8 RXUSBSETDEVICEDESCRIPTOR  RxUsbSetDeviceDescriptor
+ 0001:00001040 RXUSBSETDEVICEINTERFACE  RxUsbSetDeviceInterface
+ 0001:000011B8 RXUSBSETENDPOINTDESCRIPTOR  RxUsbSetEndpointDescriptor
+ 0001:00001462 RXUSBSETFEATURE         RxUsbSetFeature
+ 0001:00001234 RXUSBSETINTERFACEDESCRIPTOR  RxUsbSetInterfaceDescriptor
+ 0001:000012B0 RXUSBSETSTRINGDESCRIPTOR  RxUsbSetStringDescriptor
+ 0001:00000FE0 RXUSBSYNCHFRAME         RxUsbSynchFrame
+ 0001:000004E0 UsbBulkRead             UsbBulkRead
+ 0001:00000454 UsbBulkWrite            UsbBulkWrite
+ 0001:00000620 UsbClose                UsbClose
+ 0001:00000580 UsbCtrlMessage          UsbCtrlMessage
+ 0001:000006FA UsbDeregisterNotification  UsbDeregisterNotification
+ 0001:00001D90 USBDROPFUNCS            UsbDropFuncs
+ 0001:00000380 UsbIrqStart             UsbIrqStart
+ 0001:00000310 UsbIrqStop              UsbIrqStop
+ 0001:000001A0 UsbIsoDequeue           UsbIsoDequeue
+ 0001:0000011A UsbIsoEnqueue           UsbIsoEnqueue
+ 0001:00000090 UsbIsoGetLength         UsbIsoGetLength
+ 0001:00000160 UsbIsoPeekQueue         UsbIsoPeekQueue
+ 0001:000001E0 UsbIsoStart             UsbIsoStart
+ 0001:00000000 UsbIsoStop              UsbIsoStop
+ 0001:00001E00 USBLOADFUNCS            UsbLoadFuncs
+ 0001:0000066E UsbOpen                 UsbOpen
+ 0001:00000C50 UsbQueryDeviceReport    UsbQueryDeviceReport
+ 0001:00000CD8 UsbQueryNumberDevices   UsbQueryNumberDevices
+ 0001:00000AB0 UsbRegisterChangeNotification  UsbRegisterChangeNotification
+ 0001:000008C6 UsbRegisterDeviceNotification  UsbRegisterDeviceNotification
+
+  Address         Publics by Name
+
+ 0001:000082EA       Dos32GetMessage
+ 0001:000082EA       DOS32GETMESSAGE
+ 0000:00000000  Imp  DOS32IQUERYMESSAGECP (MSG.8)
+ 0000:00000000  Imp  DOS32TRUEGETMESSAGE  (MSG.6)
+ 0000:00000000  Imp  DosAllocMem          (DOSCALLS.299)
+ 0000:00000000  Imp  DosClose             (DOSCALLS.257)
+ 0000:00000000  Imp  DosCloseEventSem     (DOSCALLS.326)
+ 0000:00000000  Imp  DosCloseMutexSem     (DOSCALLS.333)
+ 0000:00000000  Imp  DosCreateEventSem    (DOSCALLS.324)
+ 0000:00000000  Imp  DosCreateMutexSem    (DOSCALLS.331)
+ 0000:00000000  Imp  DosCreateThread      (DOSCALLS.311)
+ 0000:00000000  Imp  DosDevIOCtl          (DOSCALLS.284)
+ 0000:00000000  Imp  DosExit              (DOSCALLS.234)
+ 0000:00000000  Imp  DosFreeMem           (DOSCALLS.304)
+ 0000:00000000  Imp  DosGetInfoBlocks     (DOSCALLS.312)
+ 0001:000082EA       DosGetMessage
+ 0001:000082EA       DOSGETMESSAGE
+ 0000:00000000  Imp  DosOpen              (DOSCALLS.273)
+ 0000:00000000  Imp  DosOpenEventSem      (DOSCALLS.325)
+ 0000:00000000  Imp  DosPostEventSem      (DOSCALLS.328)
+ 0000:00000000  Imp  DosQueryDBCSEnv      (NLS.6)
+ 0000:00000000  Imp  DosQueryEventSem     (DOSCALLS.330)
+ 0000:00000000  Imp  DosQueryHType        (DOSCALLS.224)
+ 0000:00000000  Imp  DosQueryMem          (DOSCALLS.306)
+ 0000:00000000  Imp  DosQuerySysInfo      (DOSCALLS.348)
+ 0000:00000000  Imp  DosRaiseException    (DOSCALLS.356)
+ 0000:00000000  Imp  DosReleaseMutexSem   (DOSCALLS.335)
+ 0000:00000000  Imp  DosRequestMutexSem   (DOSCALLS.334)
+ 0000:00000000  Imp  DosResetEventSem     (DOSCALLS.327)
+ 0000:00000000  Imp  DosSetFilePtr        (DOSCALLS.256)
+ 0000:00000000  Imp  DosSetSignalExceptionFocus (DOSCALLS.378)
+ 0000:00000000  Imp  DosSleep             (DOSCALLS.229)
+ 0000:00000000  Imp  DosWaitEventSem      (DOSCALLS.329)
+ 0000:00000000  Imp  DosWrite             (DOSCALLS.282)
+ 0001:00002234       free
+ 0001:0000713C       getenv
+ 0003:0000192C       g_fInit
+ 0003:00001934       g_hSemNotifytable
+ 0003:00002938       g_hSemRingBuffers
+ 0003:00001928       g_hUSBDrv
+ 0003:00001938       g_Notifications
+ 0003:0000293C       g_pIsoRingBuffers
+ 0003:00001930       g_ulFreeNotifys
+ 0003:00002940       g_ulNumIsoRingBuffers
+ 0001:00000DE0       InitUsbCalls__Fv
+ 0001:00000D90       IsBadReadPointer__FPvUl
+ 0001:00000D40       IsBadWritePointer__FPvUl
+ 0001:00000012       IsInvalidIsoHandle
+ 0001:00005B24       localeconv
+ 0001:00002260       malloc
+ 0001:000072D4       mbrlen
+ 0000:00000000  Imp  RexxDeregisterFunction (REXXAPI.19)
+ 0000:00000000  Imp  RexxRegisterFunctionDll (REXXAPI.17)
+ 0000:00000000  Imp  RexxVariablePool     (REXX.2)
+ 0001:000017C6       RxUsbBulkRead
+ 0001:00001788       RxUsbBulkWrite
+ 0001:0000186C       RxUsbClose
+ 0001:00001804       RxUsbCtrlMessage
+ 0001:000019FC       RxUsbDeregisterNotification
+ 0001:0000151C       RxUsbDeviceClearFeature
+ 0001:000014A0       RxUsbEndpointClearFeature
+ 0001:0000136A       RxUsbGetConfigurationDescriptor
+ 0001:00001160       RxUsbGetDeviceConfiguration
+ 0001:000013E6       RxUsbGetDeviceDescriptor
+ 0001:000010A0       RxUsbGetDeviceInterface
+ 0001:000011F6       RxUsbGetEndpointDescriptor
+ 0001:00001272       RxUsbGetInterfaceDescriptor
+ 0001:0000155A       RxUsbGetStatus
+ 0001:000012EE       RxUsbGetStringDescriptor
+ 0001:000014DE       RxUsbInterfaceClearFeature
+ 0001:0000174A       RxUsbIrqStart
+ 0001:0000170C       RxUsbIrqStop
+ 0001:00001652       RxUsbIsoDequeue
+ 0001:000015D6       RxUsbIsoEnqueue
+ 0001:00001598       RxUsbIsoGetLength
+ 0001:00001614       RxUsbIsoPeekQueue
+ 0001:000016CE       RxUsbIsoStart
+ 0001:00001690       RxUsbIsoStop
+ 0001:000018C4       RxUsbOpen
+ 0001:00001C64       RxUsbQueryDeviceReport
+ 0001:00001D10       RxUsbQueryNumberDevices
+ 0001:00001BC0       RxUsbRegisterChangeNotification
+ 0001:00001A54       RxUsbRegisterDeviceNotification
+ 0001:00001424       RxUsbSetAddress
+ 0001:0000132C       RxUsbSetConfigurationDescriptor
+ 0001:00001100       RxUsbSetDeviceConfiguration
+ 0001:000013A8       RxUsbSetDeviceDescriptor
+ 0001:00001040       RxUsbSetDeviceInterface
+ 0001:000011B8       RxUsbSetEndpointDescriptor
+ 0001:00001462       RxUsbSetFeature
+ 0001:00001234       RxUsbSetInterfaceDescriptor
+ 0001:000012B0       RxUsbSetStringDescriptor
+ 0001:00000FE0       RxUsbSynchFrame
+ 0001:00001E94       SetRexxVariableToLong__FPcl
+ 0001:00001EBE       SetRexxVariable__FPcT1
+ 0001:000082D8       sig32
+ 0003:000003AC       stderr
+ 0003:000003A4       stdin
+ 0003:000003A8       stdout
+ 0001:00002030       string2long__FPcPl
+ 0001:00001FA0       string2ulong__FPcPUl
+ 0001:00001F10       string2ushort__FPcPUs
+ 0001:00008118       strnicmp
+ 0001:00006E70       strspn
+ 0001:000004E0       UsbBulkRead
+ 0001:00000454       UsbBulkWrite
+ 0001:00000620       UsbClose
+ 0001:00000580       UsbCtrlMessage
+ 0001:000006FA       UsbDeregisterNotification
+ 0001:00001D90       UsbDropFuncs
+ 0001:00000380       UsbIrqStart
+ 0001:00000310       UsbIrqStop
+ 0001:000001A0       UsbIsoDequeue
+ 0001:0000011A       UsbIsoEnqueue
+ 0001:00000090       UsbIsoGetLength
+ 0001:00000160       UsbIsoPeekQueue
+ 0001:000001E0       UsbIsoStart
+ 0001:00000000       UsbIsoStop
+ 0001:00001E00       UsbLoadFuncs
+ 0001:0000066E       UsbOpen
+ 0001:00000C50       UsbQueryDeviceReport
+ 0001:00000CD8       UsbQueryNumberDevices
+ 0001:00000AB0       UsbRegisterChangeNotification
+ 0001:000008C6       UsbRegisterDeviceNotification
+ 0001:00005C38       wctomb
+ 0001:00006780       _beginthread
+ 0001:00006ECC       _bit_test_set
+ 0001:00003CF0       _bufprint
+ 0001:000068CC       _CloseSem
+ 0001:000068A4       _CreateSem
+ 0001:00003A78       _critlib_except
+ 0001:0000645C       _CrtGetLocalData
+ 0001:00006738       _CrtInitThread
+ 0001:000057D0       _CRT_init
+ 0003:000001C8       _crt_msg_handle
+ 0003:00002958       _CRT_usage_count
+ 0003:00002944       _ctype
+ 0003:000001AC       _ctypeModule
+ 0003:000029A0       _ctype_cmask
+ 0003:0000299C       _ctype_ctypeidx
+ 0003:00002998       _ctype_lower
+ 0003:00002990       _ctype_loweridx
+ 0003:000029A4       _ctype_mask
+ 0003:00002994       _ctype_upper
+ 0003:0000298C       _ctype_upperidx
+ 0003:00000470       _C_charmap
+ 0003:00000B38       _C_collate
+ 0003:00001084       _C_ctype
+ 0003:00001484       _C_dtconv
+ 0003:000007B4       _C_lconv
+ 0003:000007F4       _C_locale
+ 0003:000010D8       _C_monetary
+ 0003:0000112C       _C_numeric
+ 0003:00001174       _C_resp
+ 0003:000011BC       _C_syntax
+ 0003:00001534       _C_time
+ 0003:00001630       _C_tod
+ 0003:0000045C       _daylight
+ 0003:000029BC       _dbg_mem_sem
+ 0001:000072A4       _dec_test
+ 0003:000000A4       _dllentry
+ 0001:00000050       _DLL_InitTerm
+ 0003:00001928       _edata
+ 0003:00002950       _edcinit_fin
+ 0003:000029C4       _eh_base
+ 0003:000029E8       _end
+ 0001:00007528       _endthread
+ 0003:000029D0       _environ
+ 0001:00003CD0       _errno
+ 0001:00005BC0       _Exception
+ 0001:000063D8       _exception_dllinit
+ 0001:00006408       _exception_procinit
+ 0001:00005CD4       _EXE_Exception
+ 0001:00006EFC       _fillb
+ 0003:00001690       _firsteib
+ 0001:000077C0       _flushb
+ 0001:000076C8       _fpreset
+ 0001:00002138       _freeCtype
+ 0001:00006EF0       _freeCtype_weak
+ 0001:00006EE8       _freeLocale_weak
+ 0001:00008220       _freeThreadStorage
+ 0001:00005C68       _get_eib
+ 0001:00005BF0       _get_seglim
+ 0001:00006EE0       _iconv_term_weak
+ 0001:0000729C       _inc
+ 0001:00002154       _init_ctype
+ 0001:00006EEC       _init_ctype_weak
+ 0001:00002494       _insert_thou_sep
+ 0001:00003EAC       _internal_err
+ 0001:000044D0       _int_rfree
+ 0001:00006BF0       _int_uaddmem
+ 0001:000053E0       _int_umalloc
+ 0003:00001924       _lasteib
+ 0001:00005E54       _Lib_excpt
+ 0003:00002954       _locale_initialized
+ 0001:00006EE4       _localInit_weak
+ 0001:000068DC       _ltoa
+ 0001:000072C0       _matherr
+ 0003:000004DC       _matherr_ptr
+ 0001:00006EF4       _Math_Exception_Def
+ 0003:000004D8       _mb_cur_max
+ 0001:000038B4       _MesgServ
+ 0001:00005CC4       _mig_eib_store
+ 0001:00003E48       _nConv
+ 0001:00006890       _OpenSem
+ 0003:000029D4       _osmajor
+ 0003:000029D5       _osminor
+ 0003:00000464       _osmode
+ 0003:00000458       _PGLOBAL_PTR
+ 0001:00003868       _PrintErrMsg
+ 0001:00005D14       _recreate_exception
+ 0001:00005BE4       _Regen_exception
+ 0003:000029D8       _reg_heap
+ 0001:00003B80       _ReleaseSem
+ 0001:00003B70       _RequestSem
+ 0001:00006D94       _rmem_init
+ 0001:00006D50       _rmem_term
+ 0001:000042F4       _rnode_delete
+ 0001:00007308       _setupenv
+ 0001:00003DC4       _set_crt_msg_handle
+ 0001:00003DF8       _signedAssign
+ 0001:000020DC       _sprintfieee
+ 0001:00002118       _sprintf_ansi
+ 0001:00006EAC       _terminate
+ 0003:000029DC       _TerminateAndDumpSem
+ 0001:00005BD8       _Test_and_reset
+ 0001:00005780       _test_handle
+ 0003:00000460       _timezone
+ 0003:000029C8       _tzname
+ 0001:00006B30       _uaddmem
+ 0001:000076D8       _ucalloc
+ 0001:00006980       _ucreate
+ 0001:00004344       _ufree
+ 0001:00004418       _umalloc
+ 0001:000073D0       _uwrite
+ 0003:000029E4       _walk_used
+ 0001:00005C60       _wcputs
+ 0001:000081F8       _wfgetposMem
+ 0001:00005764       _wfloatfmt
+ 0001:000081D8       _wfsetposMem
+ 0001:000081F0       _wOpenMemory
+ 0001:000081D4       _wreadbSyncMem
+ 0001:000081EC       _wRemoveMem
+ 0001:000081E8       _wrewindMem
+ 0001:000081E0       _wSeekMem
+ 0001:0000820C       _wtellMem
+ 0001:000081D0       _wuwriteMem
+ 0001:00006EC0       _w_int_unlink_item
+ 0001:00007520       _w_raise
+ 0001:00005B40       _w_Terminate_and_dump
+ 0001:00006EC8       _w_tmem_init
+ 0001:00006EC4       _w_tmem_term
+ 0001:00006EBC       _w_uheap_verify
+ 0001:000077BC       _w_walking
+ 0001:0000644C       __Async_exception_flag
+ 0001:00003C80       __broken_time_ptr
+ 0001:00008068       __charmap_init
+ 0001:00008064       __collate_init
+ 0001:00003B90       __conv_buf
+ 0001:00003CE0       __cppstore
+ 0001:00008078       __ctype_init
+ 0001:00003C70       __cvt_buf_ptr
+ 0003:00002948       __c_local_ctype
+ 0001:00003BD4       __default_heap
+ 0001:000032D8       __dofmto
+ 0001:00003CC0       __doserrno
+ 0001:00003CB0       __dttm_ptr
+ 0001:00005F8C       __Exception
+ 0001:00003C90       __flags
+ 0001:00006828       __handleCollision
+ 0001:00003C50       __internal_buf_ptr
+ 0001:00003C60       __lcvt_buf_ptr
+ 0003:000004D4       __lc_charmap
+ 0003:00000B9C       __lc_collate
+ 0003:000010D4       __lc_ctype
+ 0003:00000904       __lc_locale
+ 0003:00001124       __lc_monetary
+ 0003:0000114C       __lc_numeric
+ 0003:00001194       __lc_resp
+ 0003:00001208       __lc_syntax
+ 0003:00001620       __lc_time
+ 0003:00001678       __lc_tod
+ 0001:00005B18       __localeconv_dummy
+ 0001:000072B4       __localeconv_std
+ 0003:00000908       __localeconv_std_flag
+ 0001:0000807C       __locale_init
+ 0001:00007AF0       __mbrlen_dbcs
+ 0003:0000167C       __mbrlen_dbcs_flag
+ 0001:000072C8       __mbrlen_dummy
+ 0001:00006EDC       __method_weak
+ 0001:00007EFC       __monetary_init
+ 0001:00007EA8       __numeric_init
+ 0001:00006804       __pendingRequest
+ 0001:00003C40       __perror_msg_ptr
+ 0001:00003C04       __random_seed
+ 0001:00007BF8       __resp_init
+ 0001:0000643C       __Saved_return_address
+ 0001:00003CA0       __strerror_msg_ptr
+ 0001:00003C20       __strtok_pos
+ 0001:00003BF4       __swprintf_buf
+ 0001:00003BE4       __swprintf_size
+ 0001:00007BF4       __syntax_init
+ 0001:00003C30       __tempname_ptr
+ 0001:000076BC       __threadid
+ 0001:00007C18       __time_init
+ 0001:00007BF0       __tod_init
+ 0001:00003C14       __version
+ 0001:00007408       __wctomb_dbcs
+ 0003:0000090C       __wctomb_dbcs_flag
+ 0001:00005C2C       __wctomb_dummy
+
+  Address         Publics by Value
+
+ 0000:00000000  Imp  RexxRegisterFunctionDll (REXXAPI.17)
+ 0000:00000000  Imp  DosCreateMutexSem    (DOSCALLS.331)
+ 0000:00000000  Imp  DosWrite             (DOSCALLS.282)
+ 0000:00000000  Imp  DosQueryHType        (DOSCALLS.224)
+ 0000:00000000  Imp  DosSetFilePtr        (DOSCALLS.256)
+ 0000:00000000  Imp  DosFreeMem           (DOSCALLS.304)
+ 0000:00000000  Imp  DosAllocMem          (DOSCALLS.299)
+ 0000:00000000  Imp  DosReleaseMutexSem   (DOSCALLS.335)
+ 0000:00000000  Imp  DosRequestMutexSem   (DOSCALLS.334)
+ 0000:00000000  Imp  RexxDeregisterFunction (REXXAPI.19)
+ 0000:00000000  Imp  DosClose             (DOSCALLS.257)
+ 0000:00000000  Imp  DosQueryMem          (DOSCALLS.306)
+ 0000:00000000  Imp  DosDevIOCtl          (DOSCALLS.284)
+ 0000:00000000  Imp  DosOpen              (DOSCALLS.273)
+ 0000:00000000  Imp  DosSleep             (DOSCALLS.229)
+ 0000:00000000  Imp  DOS32IQUERYMESSAGECP (MSG.8)
+ 0000:00000000  Imp  DosWaitEventSem      (DOSCALLS.329)
+ 0000:00000000  Imp  DosQueryEventSem     (DOSCALLS.330)
+ 0000:00000000  Imp  DosExit              (DOSCALLS.234)
+ 0000:00000000  Imp  DosPostEventSem      (DOSCALLS.328)
+ 0000:00000000  Imp  RexxVariablePool     (REXX.2)
+ 0000:00000000  Imp  DosCreateEventSem    (DOSCALLS.324)
+ 0000:00000000  Imp  DosResetEventSem     (DOSCALLS.327)
+ 0000:00000000  Imp  DosQuerySysInfo      (DOSCALLS.348)
+ 0000:00000000  Imp  DosQueryDBCSEnv      (NLS.6)
+ 0000:00000000  Imp  DosCloseEventSem     (DOSCALLS.326)
+ 0000:00000000  Imp  DosOpenEventSem      (DOSCALLS.325)
+ 0000:00000000  Imp  DosGetInfoBlocks     (DOSCALLS.312)
+ 0000:00000000  Imp  DosCloseMutexSem     (DOSCALLS.333)
+ 0000:00000000  Imp  DosSetSignalExceptionFocus (DOSCALLS.378)
+ 0000:00000000  Imp  DosCreateThread      (DOSCALLS.311)
+ 0000:00000000  Imp  DOS32TRUEGETMESSAGE  (MSG.6)
+ 0000:00000000  Imp  DosRaiseException    (DOSCALLS.356)
+ 0001:00000000       UsbIsoStop
+ 0001:00000012       IsInvalidIsoHandle
+ 0001:00000050       _DLL_InitTerm
+ 0001:00000090       UsbIsoGetLength
+ 0001:0000011A       UsbIsoEnqueue
+ 0001:00000160       UsbIsoPeekQueue
+ 0001:000001A0       UsbIsoDequeue
+ 0001:000001E0       UsbIsoStart
+ 0001:00000310       UsbIrqStop
+ 0001:00000380       UsbIrqStart
+ 0001:00000454       UsbBulkWrite
+ 0001:000004E0       UsbBulkRead
+ 0001:00000580       UsbCtrlMessage
+ 0001:00000620       UsbClose
+ 0001:0000066E       UsbOpen
+ 0001:000006FA       UsbDeregisterNotification
+ 0001:000008C6       UsbRegisterDeviceNotification
+ 0001:00000AB0       UsbRegisterChangeNotification
+ 0001:00000C50       UsbQueryDeviceReport
+ 0001:00000CD8       UsbQueryNumberDevices
+ 0001:00000D40       IsBadWritePointer__FPvUl
+ 0001:00000D90       IsBadReadPointer__FPvUl
+ 0001:00000DE0       InitUsbCalls__Fv
+ 0001:00000FE0       RxUsbSynchFrame
+ 0001:00001040       RxUsbSetDeviceInterface
+ 0001:000010A0       RxUsbGetDeviceInterface
+ 0001:00001100       RxUsbSetDeviceConfiguration
+ 0001:00001160       RxUsbGetDeviceConfiguration
+ 0001:000011B8       RxUsbSetEndpointDescriptor
+ 0001:000011F6       RxUsbGetEndpointDescriptor
+ 0001:00001234       RxUsbSetInterfaceDescriptor
+ 0001:00001272       RxUsbGetInterfaceDescriptor
+ 0001:000012B0       RxUsbSetStringDescriptor
+ 0001:000012EE       RxUsbGetStringDescriptor
+ 0001:0000132C       RxUsbSetConfigurationDescriptor
+ 0001:0000136A       RxUsbGetConfigurationDescriptor
+ 0001:000013A8       RxUsbSetDeviceDescriptor
+ 0001:000013E6       RxUsbGetDeviceDescriptor
+ 0001:00001424       RxUsbSetAddress
+ 0001:00001462       RxUsbSetFeature
+ 0001:000014A0       RxUsbEndpointClearFeature
+ 0001:000014DE       RxUsbInterfaceClearFeature
+ 0001:0000151C       RxUsbDeviceClearFeature
+ 0001:0000155A       RxUsbGetStatus
+ 0001:00001598       RxUsbIsoGetLength
+ 0001:000015D6       RxUsbIsoEnqueue
+ 0001:00001614       RxUsbIsoPeekQueue
+ 0001:00001652       RxUsbIsoDequeue
+ 0001:00001690       RxUsbIsoStop
+ 0001:000016CE       RxUsbIsoStart
+ 0001:0000170C       RxUsbIrqStop
+ 0001:0000174A       RxUsbIrqStart
+ 0001:00001788       RxUsbBulkWrite
+ 0001:000017C6       RxUsbBulkRead
+ 0001:00001804       RxUsbCtrlMessage
+ 0001:0000186C       RxUsbClose
+ 0001:000018C4       RxUsbOpen
+ 0001:000019FC       RxUsbDeregisterNotification
+ 0001:00001A54       RxUsbRegisterDeviceNotification
+ 0001:00001BC0       RxUsbRegisterChangeNotification
+ 0001:00001C64       RxUsbQueryDeviceReport
+ 0001:00001D10       RxUsbQueryNumberDevices
+ 0001:00001D90       UsbDropFuncs
+ 0001:00001E00       UsbLoadFuncs
+ 0001:00001E94       SetRexxVariableToLong__FPcl
+ 0001:00001EBE       SetRexxVariable__FPcT1
+ 0001:00001F10       string2ushort__FPcPUs
+ 0001:00001FA0       string2ulong__FPcPUl
+ 0001:00002030       string2long__FPcPl
+ 0001:000020DC       _sprintfieee
+ 0001:00002118       _sprintf_ansi
+ 0001:00002138       _freeCtype
+ 0001:00002154       _init_ctype
+ 0001:00002234       free
+ 0001:00002260       malloc
+ 0001:00002494       _insert_thou_sep
+ 0001:000032D8       __dofmto
+ 0001:00003868       _PrintErrMsg
+ 0001:000038B4       _MesgServ
+ 0001:00003A78       _critlib_except
+ 0001:00003B70       _RequestSem
+ 0001:00003B80       _ReleaseSem
+ 0001:00003B90       __conv_buf
+ 0001:00003BD4       __default_heap
+ 0001:00003BE4       __swprintf_size
+ 0001:00003BF4       __swprintf_buf
+ 0001:00003C04       __random_seed
+ 0001:00003C14       __version
+ 0001:00003C20       __strtok_pos
+ 0001:00003C30       __tempname_ptr
+ 0001:00003C40       __perror_msg_ptr
+ 0001:00003C50       __internal_buf_ptr
+ 0001:00003C60       __lcvt_buf_ptr
+ 0001:00003C70       __cvt_buf_ptr
+ 0001:00003C80       __broken_time_ptr
+ 0001:00003C90       __flags
+ 0001:00003CA0       __strerror_msg_ptr
+ 0001:00003CB0       __dttm_ptr
+ 0001:00003CC0       __doserrno
+ 0001:00003CD0       _errno
+ 0001:00003CE0       __cppstore
+ 0001:00003CF0       _bufprint
+ 0001:00003DC4       _set_crt_msg_handle
+ 0001:00003DF8       _signedAssign
+ 0001:00003E48       _nConv
+ 0001:00003EAC       _internal_err
+ 0001:000042F4       _rnode_delete
+ 0001:00004344       _ufree
+ 0001:00004418       _umalloc
+ 0001:000044D0       _int_rfree
+ 0001:000053E0       _int_umalloc
+ 0001:00005764       _wfloatfmt
+ 0001:00005780       _test_handle
+ 0001:000057D0       _CRT_init
+ 0001:00005B18       __localeconv_dummy
+ 0001:00005B24       localeconv
+ 0001:00005B40       _w_Terminate_and_dump
+ 0001:00005BC0       _Exception
+ 0001:00005BD8       _Test_and_reset
+ 0001:00005BE4       _Regen_exception
+ 0001:00005BF0       _get_seglim
+ 0001:00005C2C       __wctomb_dummy
+ 0001:00005C38       wctomb
+ 0001:00005C60       _wcputs
+ 0001:00005C68       _get_eib
+ 0001:00005CC4       _mig_eib_store
+ 0001:00005CD4       _EXE_Exception
+ 0001:00005D14       _recreate_exception
+ 0001:00005E54       _Lib_excpt
+ 0001:00005F8C       __Exception
+ 0001:000063D8       _exception_dllinit
+ 0001:00006408       _exception_procinit
+ 0001:0000643C       __Saved_return_address
+ 0001:0000644C       __Async_exception_flag
+ 0001:0000645C       _CrtGetLocalData
+ 0001:00006738       _CrtInitThread
+ 0001:00006780       _beginthread
+ 0001:00006804       __pendingRequest
+ 0001:00006828       __handleCollision
+ 0001:00006890       _OpenSem
+ 0001:000068A4       _CreateSem
+ 0001:000068CC       _CloseSem
+ 0001:000068DC       _ltoa
+ 0001:00006980       _ucreate
+ 0001:00006B30       _uaddmem
+ 0001:00006BF0       _int_uaddmem
+ 0001:00006D50       _rmem_term
+ 0001:00006D94       _rmem_init
+ 0001:00006E70       strspn
+ 0001:00006EAC       _terminate
+ 0001:00006EBC       _w_uheap_verify
+ 0001:00006EC0       _w_int_unlink_item
+ 0001:00006EC4       _w_tmem_term
+ 0001:00006EC8       _w_tmem_init
+ 0001:00006ECC       _bit_test_set
+ 0001:00006EDC       __method_weak
+ 0001:00006EE0       _iconv_term_weak
+ 0001:00006EE4       _localInit_weak
+ 0001:00006EE8       _freeLocale_weak
+ 0001:00006EEC       _init_ctype_weak
+ 0001:00006EF0       _freeCtype_weak
+ 0001:00006EF4       _Math_Exception_Def
+ 0001:00006EFC       _fillb
+ 0001:0000713C       getenv
+ 0001:0000729C       _inc
+ 0001:000072A4       _dec_test
+ 0001:000072B4       __localeconv_std
+ 0001:000072C0       _matherr
+ 0001:000072C8       __mbrlen_dummy
+ 0001:000072D4       mbrlen
+ 0001:00007308       _setupenv
+ 0001:000073D0       _uwrite
+ 0001:00007408       __wctomb_dbcs
+ 0001:00007520       _w_raise
+ 0001:00007528       _endthread
+ 0001:000076BC       __threadid
+ 0001:000076C8       _fpreset
+ 0001:000076D8       _ucalloc
+ 0001:000077BC       _w_walking
+ 0001:000077C0       _flushb
+ 0001:00007AF0       __mbrlen_dbcs
+ 0001:00007BF0       __tod_init
+ 0001:00007BF4       __syntax_init
+ 0001:00007BF8       __resp_init
+ 0001:00007C18       __time_init
+ 0001:00007EA8       __numeric_init
+ 0001:00007EFC       __monetary_init
+ 0001:00008064       __collate_init
+ 0001:00008068       __charmap_init
+ 0001:00008078       __ctype_init
+ 0001:0000807C       __locale_init
+ 0001:00008118       strnicmp
+ 0001:000081D0       _wuwriteMem
+ 0001:000081D4       _wreadbSyncMem
+ 0001:000081D8       _wfsetposMem
+ 0001:000081E0       _wSeekMem
+ 0001:000081E8       _wrewindMem
+ 0001:000081EC       _wRemoveMem
+ 0001:000081F0       _wOpenMemory
+ 0001:000081F8       _wfgetposMem
+ 0001:0000820C       _wtellMem
+ 0001:00008220       _freeThreadStorage
+ 0001:000082D8       sig32
+ 0001:000082EA       DOSGETMESSAGE
+ 0001:000082EA       DOS32GETMESSAGE
+ 0001:000082EA       Dos32GetMessage
+ 0001:000082EA       DosGetMessage
+ 0003:000000A4       _dllentry
+ 0003:000001AC       _ctypeModule
+ 0003:000001C8       _crt_msg_handle
+ 0003:000003A4       stdin
+ 0003:000003A8       stdout
+ 0003:000003AC       stderr
+ 0003:00000458       _PGLOBAL_PTR
+ 0003:0000045C       _daylight
+ 0003:00000460       _timezone
+ 0003:00000464       _osmode
+ 0003:00000470       _C_charmap
+ 0003:000004D4       __lc_charmap
+ 0003:000004D8       _mb_cur_max
+ 0003:000004DC       _matherr_ptr
+ 0003:000007B4       _C_lconv
+ 0003:000007F4       _C_locale
+ 0003:00000904       __lc_locale
+ 0003:00000908       __localeconv_std_flag
+ 0003:0000090C       __wctomb_dbcs_flag
+ 0003:00000B38       _C_collate
+ 0003:00000B9C       __lc_collate
+ 0003:00001084       _C_ctype
+ 0003:000010D4       __lc_ctype
+ 0003:000010D8       _C_monetary
+ 0003:00001124       __lc_monetary
+ 0003:0000112C       _C_numeric
+ 0003:0000114C       __lc_numeric
+ 0003:00001174       _C_resp
+ 0003:00001194       __lc_resp
+ 0003:000011BC       _C_syntax
+ 0003:00001208       __lc_syntax
+ 0003:00001484       _C_dtconv
+ 0003:00001534       _C_time
+ 0003:00001620       __lc_time
+ 0003:00001630       _C_tod
+ 0003:00001678       __lc_tod
+ 0003:0000167C       __mbrlen_dbcs_flag
+ 0003:00001690       _firsteib
+ 0003:00001924       _lasteib
+ 0003:00001928       _edata
+ 0003:00001928       g_hUSBDrv
+ 0003:0000192C       g_fInit
+ 0003:00001930       g_ulFreeNotifys
+ 0003:00001934       g_hSemNotifytable
+ 0003:00001938       g_Notifications
+ 0003:00002938       g_hSemRingBuffers
+ 0003:0000293C       g_pIsoRingBuffers
+ 0003:00002940       g_ulNumIsoRingBuffers
+ 0003:00002944       _ctype
+ 0003:00002948       __c_local_ctype
+ 0003:00002950       _edcinit_fin
+ 0003:00002954       _locale_initialized
+ 0003:00002958       _CRT_usage_count
+ 0003:0000298C       _ctype_upperidx
+ 0003:00002990       _ctype_loweridx
+ 0003:00002994       _ctype_upper
+ 0003:00002998       _ctype_lower
+ 0003:0000299C       _ctype_ctypeidx
+ 0003:000029A0       _ctype_cmask
+ 0003:000029A4       _ctype_mask
+ 0003:000029BC       _dbg_mem_sem
+ 0003:000029C4       _eh_base
+ 0003:000029C8       _tzname
+ 0003:000029D0       _environ
+ 0003:000029D4       _osmajor
+ 0003:000029D5       _osminor
+ 0003:000029D8       _reg_heap
+ 0003:000029DC       _TerminateAndDumpSem
+ 0003:000029E4       _walk_used
+ 0003:000029E8       _end
+
+
+Line numbers for F:\ddk\BASE\SRC\DEV\usb\USBRES\usbcalls\DLL\usbcalls.obj(.\usbcalls.cpp)
+
+	Record Number of Start of Source: 0
+	Number of Primary Source Records: 0
+	Source & Listing Files: 18
+	File  1) .\usbcalls.cpp
+	File  2) f:\TOOLKIT\H\OS2.h
+	File  3) f:\TOOLKIT\H\os2def.h
+	File  4) f:\TOOLKIT\H\bse.h
+	File  5) f:\TOOLKIT\H\bsedos.h
+	File  6) f:\TOOLKIT\H\bsememf.h
+	File  7) f:\TOOLKIT\H\bsedev.h
+	File  8) f:\TOOLKIT\H\bsesub.h
+	File  9) f:\TOOLKIT\H\bseerr.h
+	File 10) f:\TOOLKIT\H\pm.h
+	File 11) f:\TOOLKIT\H\pmwin.h
+	File 12) f:\TOOLKIT\H\pmshl.h
+	File 13) f:\TOOLKIT\H\pmgpi.h
+	File 14) f:\TOOLKIT\H\pmdev.h
+	File 15) f:\TOOLKIT\H\pmwp.h
+	File 16) f:\TOOLKIT\H\pmerr.h
+	File 17) f:\TOOLKIT\H\pmstddlg.h
+	File 18) F:\ddk\BASE\SRC\DEV\usb\USBRES\usbcalls\usbcalls.h
+
+
+Line numbers for F:\ddk\BASE\SRC\DEV\usb\USBRES\usbcalls\DLL\usbcalls.obj(.\usbcalls.cpp) segment CODE32 (@0x00000000)
+
+	 Source    Src File    Seg:Offset
+	Line Num    Index          (0X)
+	--------   --------   -------------
+	   811          1     0001:00000000
+	   812          1     0001:00000009
+	   815          1     0001:0000000f
+	   793          1     0001:00000012
+	   799          1     0001:00000013
+	   801          1     0001:00000030
+	   802          1     0001:0000003a
+	   799          1     0001:0000003e
+	   804          1     0001:00000049
+	   920          1     0001:00000050
+	   929          1     0001:00000060
+	   930          1     0001:00000065
+	   933          1     0001:00000068
+	   943          1     0001:00000071
+	   949          1     0001:0000007f
+	   952          1     0001:00000084
+	   957          1     0001:00000087
+	   865          1     0001:00000090
+	   869          1     0001:00000097
+	   872          1     0001:0000009d
+	   873          1     0001:000000a2
+	   874          1     0001:000000a6
+	   875          1     0001:000000ac
+	   876          1     0001:000000b7
+	   878          1     0001:000000bf
+	   879          1     0001:000000c4
+	   880          1     0001:000000d0
+	   881          1     0001:000000dd
+	   883          1     0001:000000f4
+	   885          1     0001:00000112
+	   849          1     0001:0000011a
+	   854          1     0001:0000011d
+	   856          1     0001:00000125
+	   857          1     0001:0000012e
+	   858          1     0001:00000132
+	   859          1     0001:00000136
+	   860          1     0001:00000140
+	   862          1     0001:00000149
+	   834          1     0001:00000160
+	   839          1     0001:00000163
+	   841          1     0001:0000016b
+	   842          1     0001:00000174
+	   843          1     0001:00000178
+	   844          1     0001:0000017c
+	   845          1     0001:00000186
+	   846          1     0001:0000018f
+	   818          1     0001:000001a0
+	   823          1     0001:000001a3
+	   825          1     0001:000001ab
+	   826          1     0001:000001b4
+	   827          1     0001:000001b8
+	   828          1     0001:000001bc
+	   829          1     0001:000001c6
+	   831          1     0001:000001cf
+	   740          1     0001:000001e0
+	   746          1     0001:000001e1
+	   750          1     0001:000001ee
+	   751          1     0001:000001fa
+	   753          1     0001:00000206
+	   754          1     0001:00000218
+	   755          1     0001:0000021c
+	   757          1     0001:00000223
+	   759          1     0001:00000240
+	   761          1     0001:00000246
+	   762          1     0001:0000024c
+	   757          1     0001:0000024e
+	   765          1     0001:00000262
+	   767          1     0001:00000270
+	   768          1     0001:0000027b
+	   770          1     0001:00000287
+	   776          1     0001:0000028a
+	   771          1     0001:0000028f
+	   772          1     0001:00000295
+	   773          1     0001:000002bc
+	   774          1     0001:000002c3
+	   780          1     0001:000002d4
+	   782          1     0001:000002d8
+	   783          1     0001:000002df
+	   784          1     0001:000002e8
+	   787          1     0001:000002ea
+	   788          1     0001:000002f2
+	   790          1     0001:000002f8
+	   719          1     0001:00000310
+	   725          1     0001:00000316
+	   726          1     0001:00000320
+	   730          1     0001:0000032a
+	   728          1     0001:0000034b
+	   729          1     0001:00000352
+	   734          1     0001:00000363
+	   735          1     0001:00000367
+	   737          1     0001:00000372
+	   679          1     0001:00000380
+	   691          1     0001:00000387
+	   692          1     0001:00000390
+	   694          1     0001:0000039b
+	   695          1     0001:000003b6
+	   697          1     0001:000003c1
+	   698          1     0001:000003d5
+	   699          1     0001:000003d9
+	   701          1     0001:000003df
+	   706          1     0001:000003e2
+	   702          1     0001:000003e7
+	   703          1     0001:000003f1
+	   704          1     0001:000003fa
+	   708          1     0001:00000400
+	   705          1     0001:0000041f
+	   712          1     0001:00000430
+	   713          1     0001:00000434
+	   715          1     0001:00000444
+	   716          1     0001:0000044c
+	   645          1     0001:00000454
+	   656          1     0001:0000045a
+	   657          1     0001:00000463
+	   663          1     0001:0000046c
+	   670          1     0001:0000046f
+	   664          1     0001:00000474
+	   665          1     0001:0000047a
+	   666          1     0001:00000480
+	   668          1     0001:00000486
+	   661          1     0001:000004b8
+	   676          1     0001:000004cd
+	   606          1     0001:000004e0
+	   617          1     0001:000004e7
+	   618          1     0001:000004f1
+	   629          1     0001:000004fc
+	     0          0     0001:00000000
+	   624          1     0001:000004ff
+	   631          1     0001:00000505
+	   625          1     0001:00000507
+	   626          1     0001:0000050d
+	   627          1     0001:00000513
+	   622          1     0001:0000051b
+	   637          1     0001:00000564
+	   638          1     0001:00000568
+	   640          1     0001:00000570
+	   642          1     0001:00000578
+	   571          1     0001:00000580
+	   584          1     0001:00000586
+	   585          1     0001:0000058f
+	   588          1     0001:00000598
+	   593          1     0001:0000059b
+	   589          1     0001:000005a6
+	   595          1     0001:000005a9
+	   590          1     0001:000005b1
+	   591          1     0001:000005ba
+	   592          1     0001:000005c2
+	   594          1     0001:000005ca
+	   597          1     0001:000005d0
+	   587          1     0001:000005ef
+	   603          1     0001:00000611
+	   554          1     0001:00000620
+	   558          1     0001:00000623
+	   559          1     0001:0000062c
+	   561          1     0001:00000635
+	   562          1     0001:0000063d
+	   564          1     0001:00000644
+	   568          1     0001:0000066a
+	   520          1     0001:0000066e
+	   530          1     0001:00000674
+	   531          1     0001:0000067d
+	   532          1     0001:00000687
+	   533          1     0001:00000698
+	   536          1     0001:000006a2
+	   535          1     0001:000006a6
+	   537          1     0001:000006ae
+	   538          1     0001:000006ba
+	   544          1     0001:000006c2
+	   542          1     0001:000006e2
+	   543          1     0001:000006e9
+	   550          1     0001:000006f5
+	   445          1     0001:000006fa
+	   452          1     0001:00000702
+	   453          1     0001:0000070c
+	   458          1     0001:00000718
+	   459          1     0001:0000072d
+	   461          1     0001:00000739
+	   463          1     0001:00000745
+	   464          1     0001:0000074a
+	   466          1     0001:00000756
+	   468          1     0001:00000758
+	   470          1     0001:0000075f
+	   473          1     0001:00000798
+	   474          1     0001:000007a6
+	   480          1     0001:000007b2
+	   476          1     0001:000007bd
+	   477          1     0001:000007c6
+	   478          1     0001:000007cd
+	   479          1     0001:000007d4
+	   481          1     0001:000007de
+	   482          1     0001:000007e4
+	   490          1     0001:000007e6
+	   484          1     0001:000007f1
+	   485          1     0001:000007fa
+	   486          1     0001:00000801
+	   487          1     0001:00000808
+	   491          1     0001:00000812
+	   492          1     0001:00000818
+	   493          1     0001:00000820
+	   494          1     0001:00000828
+	   495          1     0001:00000830
+	   496          1     0001:00000836
+	   498          1     0001:00000838
+	   499          1     0001:00000846
+	   502          1     0001:00000852
+	   506          1     0001:0000087b
+	   508          1     0001:0000087f
+	   509          1     0001:00000890
+	   510          1     0001:00000896
+	   511          1     0001:0000089d
+	   512          1     0001:000008a3
+	   513          1     0001:000008a9
+	   515          1     0001:000008af
+	   517          1     0001:000008bd
+	   369          1     0001:000008c6
+	   381          1     0001:000008cf
+	   382          1     0001:000008d8
+	   384          1     0001:000008e5
+	   388          1     0001:00000922
+	   391          1     0001:0000092f
+	   392          1     0001:00000940
+	   393          1     0001:00000944
+	   394          1     0001:0000094c
+	   395          1     0001:0000095d
+	   396          1     0001:00000961
+	   403          1     0001:00000969
+	   404          1     0001:0000096c
+	   410          1     0001:0000096f
+	   405          1     0001:00000977
+	   406          1     0001:0000097b
+	   407          1     0001:0000097f
+	   398          1     0001:00000989
+	   399          1     0001:00000990
+	   400          1     0001:00000997
+	   408          1     0001:000009a6
+	   411          1     0001:000009ba
+	   412          1     0001:000009be
+	   414          1     0001:000009c6
+	   416          1     0001:000009e0
+	   418          1     0001:000009ed
+	   419          1     0001:000009f3
+	   420          1     0001:000009f8
+	   421          1     0001:000009fe
+	   422          1     0001:00000a06
+	   423          1     0001:00000a0e
+	   424          1     0001:00000a16
+	   414          1     0001:00000a18
+	   427          1     0001:00000a24
+	   428          1     0001:00000a39
+	   429          1     0001:00000a41
+	   432          1     0001:00000a4e
+	   433          1     0001:00000a5d
+	   437          1     0001:00000a87
+	     0          0     0001:00000000
+	   439          1     0001:00000a8b
+	   440          1     0001:00000a91
+	   442          1     0001:00000a97
+	   295          1     0001:00000ab0
+	   304          1     0001:00000ab9
+	   305          1     0001:00000ac2
+	   307          1     0001:00000acf
+	   309          1     0001:00000aec
+	   314          1     0001:00000af9
+	   311          1     0001:00000afc
+	   312          1     0001:00000b03
+	   317          1     0001:00000b0e
+	   318          1     0001:00000b1d
+	   319          1     0001:00000b21
+	   321          1     0001:00000b29
+	   320          1     0001:00000b2c
+	   324          1     0001:00000b36
+	   327          1     0001:00000b3d
+	   328          1     0001:00000b4c
+	   329          1     0001:00000b50
+	   331          1     0001:00000b58
+	   330          1     0001:00000b5b
+	   334          1     0001:00000b62
+	   335          1     0001:00000b74
+	   336          1     0001:00000b78
+	   338          1     0001:00000b80
+	   340          1     0001:00000b90
+	   342          1     0001:00000b9d
+	   343          1     0001:00000ba3
+	   344          1     0001:00000ba8
+	   345          1     0001:00000bae
+	   346          1     0001:00000bb4
+	   347          1     0001:00000bba
+	   348          1     0001:00000bc0
+	   338          1     0001:00000bc2
+	   351          1     0001:00000bce
+	   352          1     0001:00000be3
+	   353          1     0001:00000beb
+	   356          1     0001:00000bf8
+	   357          1     0001:00000c07
+	   361          1     0001:00000c31
+	   363          1     0001:00000c35
+	   364          1     0001:00000c3b
+	   366          1     0001:00000c41
+	   272          1     0001:00000c50
+	   278          1     0001:00000c53
+	   279          1     0001:00000c5c
+	   281          1     0001:00000c65
+	   282          1     0001:00000c77
+	   284          1     0001:00000c80
+	   285          1     0001:00000c97
+	   286          1     0001:00000ca0
+	   287          1     0001:00000ca7
+	   288          1     0001:00000cb1
+	   292          1     0001:00000cd4
+	   254          1     0001:00000cd8
+	   258          1     0001:00000cdb
+	   259          1     0001:00000ce4
+	   261          1     0001:00000ced
+	   262          1     0001:00000cff
+	   264          1     0001:00000d08
+	   265          1     0001:00000d0c
+	   263          1     0001:00000d10
+	   269          1     0001:00000d3c
+	   241          1     0001:00000d40
+	   245          1     0001:00000d45
+	   247          1     0001:00000d57
+	   232          1     0001:00000d90
+	   236          1     0001:00000d95
+	   238          1     0001:00000da7
+	   153          1     0001:00000de0
+	   158          1     0001:00000de5
+	   168          1     0001:00000e0b
+	   173          1     0001:00000e0f
+	   170          1     0001:00000e11
+	   171          1     0001:00000e1b
+	   177          1     0001:00000e29
+	   178          1     0001:00000e33
+	   180          1     0001:00000e40
+	   178          1     0001:00000e46
+	   181          1     0001:00000e58
+	   182          1     0001:00000e61
+	   183          1     0001:00000e68
+	   184          1     0001:00000e74
+	   185          1     0001:00000e7a
+	   187          1     0001:00000ea7
+	   190          1     0001:00000ec1
+	   193          1     0001:00000ec9
+	   195          1     0001:00000eda
+	   196          1     0001:00000ee1
+	   193          1     0001:00000ee7
+	   197          1     0001:00000ee8
+	   198          1     0001:00000eee
+	   199          1     0001:00000ef4
+	   200          1     0001:00000efa
+	   201          1     0001:00000efe
+	   205          1     0001:00000f10
+	   206          1     0001:00000f25
+	   208          1     0001:00000f29
+	   209          1     0001:00000f3e
+	   211          1     0001:00000f42
+	   212          1     0001:00000f4d
+	   214          1     0001:00000f5b
+	   217          1     0001:00000f60
+	   221          1     0001:00000f6e
+	   223          1     0001:00000f73
+	   226          1     0001:00000f81
+	   224          1     0001:00000f83
+	   225          1     0001:00000f8d
+	   230          1     0001:00000f9b
+	   228          1     0001:00000f9d
+
+
+Line numbers for F:\ddk\BASE\SRC\DEV\usb\USBRES\usbcalls\DLL\usbrexx.obj(.\usbrexx.cpp)
+
+	Record Number of Start of Source: 0
+	Number of Primary Source Records: 0
+	Source & Listing Files: 21
+	File  1) .\usbrexx.cpp
+	File  2) f:\TOOLKIT\H\os2.h
+	File  3) f:\TOOLKIT\H\os2def.h
+	File  4) f:\TOOLKIT\H\bse.h
+	File  5) f:\TOOLKIT\H\bsedos.h
+	File  6) f:\TOOLKIT\H\bsememf.h
+	File  7) f:\TOOLKIT\H\bsesub.h
+	File  8) f:\TOOLKIT\H\bseerr.h
+	File  9) f:\TOOLKIT\H\pm.h
+	File 10) f:\TOOLKIT\H\pmwin.h
+	File 11) f:\TOOLKIT\H\pmshl.h
+	File 12) f:\TOOLKIT\H\pmgpi.h
+	File 13) f:\TOOLKIT\H\pmdev.h
+	File 14) f:\TOOLKIT\H\pmwp.h
+	File 15) f:\TOOLKIT\H\pmerr.h
+	File 16) f:\TOOLKIT\H\pmstddlg.h
+	File 17) F:\ddk\BASE\SRC\DEV\usb\USBRES\usbcalls\usbcalls.h
+	File 18) f:\TOOLKIT\H\rexxsaa.h
+	File 19) f:\IBMCPP\INCLUDE\ctype.h
+	File 20) f:\IBMCPP\INCLUDE\stdio.h
+	File 21) f:\IBMCPP\INCLUDE\string.h
+
+
+Line numbers for F:\ddk\BASE\SRC\DEV\usb\USBRES\usbcalls\DLL\usbrexx.obj(.\usbrexx.cpp) segment CODE32 (@0x00000000)
+
+	 Source    Src File    Seg:Offset
+	Line Num    Index          (0X)
+	--------   --------   -------------
+	   102         19     0001:00000fb0
+	   103         19     0001:00000fb2
+	    86         21     0001:00000fc0
+	    87         21     0001:00000fc1
+	  1119          1     0001:00000fe0
+	  1129          1     0001:00000fe6
+	  1130          1     0001:00000fed
+	  1132          1     0001:00000ff9
+	  1134          1     0001:0000100f
+	  1135          1     0001:00001024
+	  1136          1     0001:0000102e
+	  1099          1     0001:00001040
+	  1109          1     0001:00001046
+	  1110          1     0001:0000104d
+	  1112          1     0001:00001059
+	  1114          1     0001:00001073
+	  1115          1     0001:00001088
+	  1116          1     0001:00001092
+	  1079          1     0001:000010a0
+	  1089          1     0001:000010a6
+	  1090          1     0001:000010ad
+	  1092          1     0001:000010b9
+	  1094          1     0001:000010d5
+	  1095          1     0001:000010ea
+	  1096          1     0001:000010f4
+	  1060          1     0001:00001100
+	  1069          1     0001:00001106
+	  1070          1     0001:0000110d
+	  1072          1     0001:00001119
+	  1074          1     0001:0000112f
+	  1075          1     0001:00001144
+	  1076          1     0001:0000114e
+	  1041          1     0001:00001160
+	  1050          1     0001:00001165
+	  1051          1     0001:0000116c
+	  1053          1     0001:00001177
+	  1055          1     0001:00001191
+	  1056          1     0001:000011a6
+	  1057          1     0001:000011b0
+	  1027          1     0001:000011b8
+	  1034          1     0001:000011bd
+	  1035          1     0001:000011c4
+	  1036          1     0001:000011cf
+	  1037          1     0001:000011e4
+	  1038          1     0001:000011ee
+	  1013          1     0001:000011f6
+	  1020          1     0001:000011fb
+	  1021          1     0001:00001202
+	  1022          1     0001:0000120d
+	  1023          1     0001:00001222
+	  1024          1     0001:0000122c
+	   999          1     0001:00001234
+	  1006          1     0001:00001239
+	  1007          1     0001:00001240
+	  1008          1     0001:0000124b
+	  1009          1     0001:00001260
+	  1010          1     0001:0000126a
+	   985          1     0001:00001272
+	   992          1     0001:00001277
+	   993          1     0001:0000127e
+	   994          1     0001:00001289
+	   995          1     0001:0000129e
+	   996          1     0001:000012a8
+	   971          1     0001:000012b0
+	   978          1     0001:000012b5
+	   979          1     0001:000012bc
+	   980          1     0001:000012c7
+	   981          1     0001:000012dc
+	   982          1     0001:000012e6
+	   957          1     0001:000012ee
+	   964          1     0001:000012f3
+	   965          1     0001:000012fa
+	   966          1     0001:00001305
+	   967          1     0001:0000131a
+	   968          1     0001:00001324
+	   943          1     0001:0000132c
+	   950          1     0001:00001331
+	   951          1     0001:00001338
+	   952          1     0001:00001343
+	   953          1     0001:00001358
+	   954          1     0001:00001362
+	   929          1     0001:0000136a
+	   936          1     0001:0000136f
+	   937          1     0001:00001376
+	   938          1     0001:00001381
+	   939          1     0001:00001396
+	   940          1     0001:000013a0
+	   915          1     0001:000013a8
+	   922          1     0001:000013ad
+	   923          1     0001:000013b4
+	   924          1     0001:000013bf
+	   925          1     0001:000013d4
+	   926          1     0001:000013de
+	   901          1     0001:000013e6
+	   908          1     0001:000013eb
+	   909          1     0001:000013f2
+	   910          1     0001:000013fd
+	   911          1     0001:00001412
+	   912          1     0001:0000141c
+	   887          1     0001:00001424
+	   894          1     0001:00001429
+	   895          1     0001:00001430
+	   896          1     0001:0000143b
+	   897          1     0001:00001450
+	   898          1     0001:0000145a
+	   873          1     0001:00001462
+	   880          1     0001:00001467
+	   881          1     0001:0000146e
+	   882          1     0001:00001479
+	   883          1     0001:0000148e
+	   884          1     0001:00001498
+	   859          1     0001:000014a0
+	   866          1     0001:000014a5
+	   867          1     0001:000014ac
+	   868          1     0001:000014b7
+	   869          1     0001:000014cc
+	   870          1     0001:000014d6
+	   845          1     0001:000014de
+	   852          1     0001:000014e3
+	   853          1     0001:000014ea
+	   854          1     0001:000014f5
+	   855          1     0001:0000150a
+	   856          1     0001:00001514
+	   831          1     0001:0000151c
+	   838          1     0001:00001521
+	     0          0     0001:00000fb0
+	   839          1     0001:00001528
+	   840          1     0001:00001533
+	   841          1     0001:00001548
+	   842          1     0001:00001552
+	   817          1     0001:0000155a
+	   824          1     0001:0000155f
+	   825          1     0001:00001566
+	   826          1     0001:00001571
+	   827          1     0001:00001586
+	   828          1     0001:00001590
+	   803          1     0001:00001598
+	   810          1     0001:0000159d
+	   811          1     0001:000015a4
+	   812          1     0001:000015af
+	   813          1     0001:000015c4
+	   814          1     0001:000015ce
+	   789          1     0001:000015d6
+	   796          1     0001:000015db
+	   797          1     0001:000015e2
+	   798          1     0001:000015ed
+	   799          1     0001:00001602
+	   800          1     0001:0000160c
+	   775          1     0001:00001614
+	   782          1     0001:00001619
+	   783          1     0001:00001620
+	   784          1     0001:0000162b
+	   785          1     0001:00001640
+	   786          1     0001:0000164a
+	   761          1     0001:00001652
+	   768          1     0001:00001657
+	   769          1     0001:0000165e
+	   770          1     0001:00001669
+	   771          1     0001:0000167e
+	   772          1     0001:00001688
+	   747          1     0001:00001690
+	   754          1     0001:00001695
+	   755          1     0001:0000169c
+	   756          1     0001:000016a7
+	   757          1     0001:000016bc
+	   758          1     0001:000016c6
+	   733          1     0001:000016ce
+	   740          1     0001:000016d3
+	   741          1     0001:000016da
+	   742          1     0001:000016e5
+	   743          1     0001:000016fa
+	   744          1     0001:00001704
+	   719          1     0001:0000170c
+	   726          1     0001:00001711
+	   727          1     0001:00001718
+	   728          1     0001:00001723
+	   729          1     0001:00001738
+	   730          1     0001:00001742
+	   705          1     0001:0000174a
+	   712          1     0001:0000174f
+	   713          1     0001:00001756
+	   714          1     0001:00001761
+	   715          1     0001:00001776
+	   716          1     0001:00001780
+	   691          1     0001:00001788
+	   698          1     0001:0000178d
+	   699          1     0001:00001794
+	   700          1     0001:0000179f
+	   701          1     0001:000017b4
+	   702          1     0001:000017be
+	   676          1     0001:000017c6
+	   683          1     0001:000017cb
+	   684          1     0001:000017d2
+	   686          1     0001:000017dd
+	   687          1     0001:000017f2
+	   688          1     0001:000017fc
+	   642          1     0001:00001804
+	   658          1     0001:0000180d
+	   659          1     0001:00001813
+	   661          1     0001:00001820
+	   670          1     0001:0000183b
+	   671          1     0001:00001855
+	   672          1     0001:00001862
+	   622          1     0001:0000186c
+	   631          1     0001:00001870
+	   633          1     0001:0000188b
+	   635          1     0001:00001895
+	   637          1     0001:0000189e
+	   638          1     0001:000018b3
+	   639          1     0001:000018bd
+	   572          1     0001:000018c4
+	   585          1     0001:000018cc
+	   587          1     0001:000018d2
+	   592          1     0001:00001920
+	   595          1     0001:0000192c
+	   597          1     0001:00001932
+	   601          1     0001:0000196d
+	   602          1     0001:00001979
+	   603          1     0001:0000197f
+	   605          1     0001:00001984
+	   613          1     0001:00001990
+	   607          1     0001:00001993
+	   614          1     0001:000019c3
+	   616          1     0001:000019d0
+	   617          1     0001:000019e7
+	   619          1     0001:000019f3
+	   553          1     0001:000019fc
+	   561          1     0001:00001a00
+	   563          1     0001:00001a1b
+	   565          1     0001:00001a25
+	   567          1     0001:00001a2e
+	   568          1     0001:00001a43
+	   569          1     0001:00001a4d
+	   500          1     0001:00001a54
+	   514          1     0001:00001a5c
+	   516          1     0001:00001a66
+	   522          1     0001:00001ac3
+	   525          1     0001:00001acf
+	   527          1     0001:00001ad9
+	   532          1     0001:00001b23
+	   533          1     0001:00001b2f
+	   534          1     0001:00001b35
+	   536          1     0001:00001b38
+	   544          1     0001:00001b44
+	   538          1     0001:00001b47
+	   545          1     0001:00001b78
+	   547          1     0001:00001b85
+	   548          1     0001:00001b9c
+	   550          1     0001:00001ba8
+	   461          1     0001:00001bc0
+	   471          1     0001:00001bc8
+	   475          1     0001:00001bfa
+	     0          0     0001:00000fb0
+	   481          1     0001:00001c06
+	   477          1     0001:00001c09
+	   482          1     0001:00001c2b
+	   484          1     0001:00001c38
+	   485          1     0001:00001c4f
+	   487          1     0001:00001c5b
+	   422          1     0001:00001c64
+	   433          1     0001:00001c78
+	   436          1     0001:00001ca8
+	   438          1     0001:00001cb5
+	   439          1     0001:00001cc0
+	   447          1     0001:00001cd9
+	   448          1     0001:00001cf1
+	   449          1     0001:00001cfb
+	   391          1     0001:00001d10
+	   400          1     0001:00001d15
+	   402          1     0001:00001d2b
+	   404          1     0001:00001d36
+	   406          1     0001:00001d42
+	   407          1     0001:00001d57
+	   408          1     0001:00001d64
+	   409          1     0001:00001d7d
+	   411          1     0001:00001d88
+	   361          1     0001:00001d90
+	   370          1     0001:00001d92
+	   371          1     0001:00001d99
+	   373          1     0001:00001da1
+	   377          1     0001:00001da5
+	   378          1     0001:00001dbe
+	   377          1     0001:00001dc6
+	   380          1     0001:00001df8
+	   328          1     0001:00001e00
+	   337          1     0001:00001e03
+	   339          1     0001:00001e0d
+	   340          1     0001:00001e14
+	   344          1     0001:00001e1d
+	   346          1     0001:00001e40
+	   344          1     0001:00001e4d
+	   350          1     0001:00001e8e
+	   309          1     0001:00001e94
+	   312          1     0001:00001e9b
+	   313          1     0001:00001eb3
+	   283          1     0001:00001ebe
+	   288          1     0001:00001ec7
+	   289          1     0001:00001ecb
+	   290          1     0001:00001ecf
+	   292          1     0001:00001ed6
+	   294          1     0001:00001ee1
+	   295          1     0001:00001ef0
+	   296          1     0001:00001ef7
+	   252          1     0001:00001f10
+	   257          1     0001:00001f1f
+	   258          1     0001:00001f27
+	   260          1     0001:00001f30
+	   264          1     0001:00001f3a
+	   262          1     0001:00001f3d
+	   265          1     0001:00001f4c
+	   266          1     0001:00001f59
+	   268          1     0001:00001f65
+	   269          1     0001:00001f6e
+	   270          1     0001:00001f72
+	   264          1     0001:00001f7a
+	   272          1     0001:00001f82
+	   273          1     0001:00001f89
+	   216          1     0001:00001fa0
+	   221          1     0001:00001faf
+	   222          1     0001:00001fb7
+	   224          1     0001:00001fc0
+	   228          1     0001:00001fca
+	   226          1     0001:00001fcd
+	   229          1     0001:00001fe0
+	   230          1     0001:00001fed
+	   232          1     0001:00001ff9
+	   233          1     0001:00002002
+	   234          1     0001:00002006
+	   228          1     0001:00002009
+	   236          1     0001:00002010
+	   237          1     0001:00002016
+	   173          1     0001:00002030
+	   179          1     0001:0000203f
+	   180          1     0001:00002046
+	   182          1     0001:0000204b
+	   181          1     0001:0000204c
+	   185          1     0001:00002056
+	   186          1     0001:00002061
+	   188          1     0001:0000206a
+	   192          1     0001:00002074
+	   190          1     0001:00002077
+	   193          1     0001:00002090
+	   194          1     0001:0000209d
+	   196          1     0001:000020a9
+	   197          1     0001:000020b2
+	   198          1     0001:000020b6
+	   192          1     0001:000020b9
+	   200          1     0001:000020c0
+	   201          1     0001:000020cc
+
+Program entry point at 0001:00000050
