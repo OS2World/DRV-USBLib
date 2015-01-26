@@ -17,4 +17,4 @@ AUTHORS
 
 LINKS
 ===============
-* 
+* ftp://ftp.netlabs.org/pub/snapshots/usb/
